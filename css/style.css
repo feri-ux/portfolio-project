@@ -31,8 +31,20 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
 .hero p {
   font-size: 36px;
+  color: #272142;
   font-weight: bold;
   margin: 0;
 }
@@ -50,4 +62,17 @@ h1 {
   border-radius: 4px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  color: var(--brandin-color);
+  border: 1px solid var(--brandin-color);
+  font-size: 18px;
+  border-radius: 4px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.project-decsiption {
+  padding: 120px 60px;
 }
