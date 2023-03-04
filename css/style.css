@@ -29,6 +29,7 @@ h6 {
 h1 {
   font-size: 96px;
   font-weight: bold;
+  line-height: 1.5;
 }
 
 h2 {
@@ -75,4 +76,23 @@ p {
 
 .project-decsiption {
   padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 45px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-decsiption {
+    padding: 0;
+    text-align: center;
+  }
 }
