@@ -149,6 +149,10 @@ p {
   max-height: 40px;
 }
 
+.asieh-pic {
+  transform: scale(0.9);
+}
+
 nav {
   padding: 20px 0;
 }
