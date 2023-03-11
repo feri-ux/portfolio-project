@@ -12,7 +12,7 @@ body {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 h1,
@@ -24,7 +24,6 @@ h3 {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   font-family: var(--heading-font-family);
@@ -43,7 +42,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -70,7 +69,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -100,10 +99,6 @@ p {
 .content {
   margin: 30px;
   padding: 0;
-}
-
-.content-container {
-  padding: 160px 20px;
 }
 
 .btn-branding {
@@ -228,9 +223,6 @@ footer .email-link:hover {
     font-size: 44px;
   }
 
-  .hero {
-    padding: 80px 20px;
-  }
   .project-decsiption {
     padding: 0;
     text-align: center;
@@ -248,6 +240,4 @@ footer .email-link:hover {
   nav a {
     font-size: 12px;
   }
-
- 
 }
